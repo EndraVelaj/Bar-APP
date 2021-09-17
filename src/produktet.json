@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "emri": "Uji",
+      "cmimi": 50,
+      "source": "/assets/Water.jpg"
+    },
+    {
+      "id": 2,
+      "emri": "Kafe",
+      "cmimi": 50,
+      "source": "/assets/kafe.jpg"
+    },
+    {
+      "id": 3,
+      "emri": "Caj",
+      "cmimi": 100,
+      "source": "/assets/pexels-mareefe-1417945.jpg"
+    },
+
+    {
+      "id": 4,
+      "emri": "Cola",
+      "cmimi": 130,
+      "source": "/assets/coca-cola.jpg"
+    },
+    {
+      "id": 5,
+      "emri": "Vodka",
+      "cmimi": 300,
+      "source": "/assets/bv-bottle-landing.jpg"
+    },
+
+    {
+      "id": 6,
+      "emri": "Birra",
+      "cmimi": 50,
+      "source": "/assets/beers.jpg"
+    }
+  ]
