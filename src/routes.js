@@ -1,17 +1,16 @@
 
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import MainPage from './components/mainPage';
-import ConfirmPage from './components/butonikonfirmo'
+import MainPage from './components/MainPage/mainPage';
+import ConfirmPage from './components/paneliKonfirmo/butonikonfirmo';
 import App from "./App";
-import Produktet from './components/products';
 
  function Routes() {
     return (
         <Switch>
-            <Route path="/" exact component={MainPage}/>
-            <Route path="/app" exact component={App}/>
-            <Route path="/konfirmo-blerjen/" component={ConfirmPage}/>
+            <Route path="/" exact component={App}/>
+            <Route path="/mainPage" exact component={MainPage}/>
+            <Route path="/konfirmo-blerjen/:id/:emri/:cmimi" component={ConfirmPage}/>
         </Switch>
     );
 }

@@ -1,46 +1,44 @@
 
-.content {
-  background-color: white;
-  text-align: center;
-  padding: 50px;
-
-}
-
-.produkt {
-  
-  width:30%;
-  margin: 5px;
-  border: 10px solid aliceblue;
-  float: left;
-
-}
-
-img{
-width: 30%;
-border: 10px solid aliceblue;
-border-radius: 20%;
-}
-
-
-.imagess:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  opacity: 0.5;
-}
-
-h2{
-  text-align: center;
-  background-color: darkgray;
-  font-family: "Trirong", serif;
-  position: flex;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-
 
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input {
+  padding: 10px;
+  width: 300px;
+  max-width: 90%;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 10px 40px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+.btn:hover {
+  opacity: 70%;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.messages {
+  color: red;
+  font-size: 16px;
 }
 
 .App-logo {
