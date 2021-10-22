@@ -1,0 +1,32 @@
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: auto;
+  }
+  
+  th, td {
+    padding: 15px;
+    margin: auto;
+  }
+
+  button {
+      background-color: rgba(238, 79, 79, 0.712);
+      margin: auto;
+  }
+
+  button:hover { 
+      background-color: rgb(69, 121, 182);
+      cursor: pointer;
+  }
+
+  tr:hover {background-color: aliceblue;}
